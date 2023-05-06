@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div id="logo">
+        <img src="assets/SRMS Logo.png" alt="" srcset="">
+    </div>
+    <nav>
+
+        <a href="index.html">HOME</a>
+        <a href="events.html">EVENTS</a>
+        <a href="">GALLERY</a>
+        <a href="developer_team.html">ABOUT US</a>
+    </nav>
+
+    <h1 id="dev-head">Developer Team</h1>
+    <div id="dev-container">
+
+        <div id="box">
+
+            <div id="box-container">
+                <img src="assets/amit.png" alt="" id="amit">
+                <div id="dev-name">Amit Verma</div>
+                <div id="dev-email"><img src="assets/gmail.png" id="gmail">7505574@gmail.com</div>
+                <div id="dev-phone"><img src="assets/telephone.png" id="phone">9837022041</div>
+
+            </div>
+        </div>
+        <div id="box"> <img src="assets/Astro1.3c66ff2f5c3fd8a148c5.png" alt="" id="astronaut"></div>
+        <div id="box">
+            <div id="box-container">
+                <img src="assets/IMG-20230428-WA0000.jpg" alt="" id="amit">
+                <div id="dev-name">Prashant Bhalla</div>
+                <div id="dev-email"><img src="assets/gmail.png" id="gmail">7505574@gmail.com</div>
+                <div id="dev-phone"><img src="assets/telephone.png" id="phone">9219190066</div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ------------------footer----------------- -->
+    <div id="footer">
+        <div id="footer-left">
+            <img src="assets/srms.jpg" alt="" id="srms1">
+        </div>
+        <div id="footer-right">
+            <div id="footer-name">SHRI RAM MURTI SMARAK COLLEGE OF ENGINEERING AND TECHNOLOGY</div>
+            <div id="footer-address">Ram Murti Puram 13KM Nainital-Highway,Bareilly-243202</div>
+            <div id="footer-phone">Phone:0581-252246,2582249,2582231-32, Fax: 0581-2582330</div>
+            <div id="footer-email">E-mail:<a href="mailto:tyro@srmscet.edu">tyro@srmscet.edu</a> &nbsp; &nbsp; <a
+                    target="_blank" href="http://www.srms.ac.in"> www.srms.ac.in</a></div>
+        </div>
+    </div>
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("/assets/planet-581239.jpg"), url("/assets/stars-7249785_1920.jpg");
+            background-size: cover cover;
+            background-blend-mode: lighten;
+            background-attachment: fixed;
+        }
+
+        nav {
+            margin-top: 20px;
+            margin-left: 20%;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 20px;
+            font-family: 'Press Start 2P';
+        }
+
+        #logo img {
+            height: 50px;
+            position: absolute;
+            top: 8px;
+            left: 10px;
+        }
+
+        #dev-head {
+            color: white;
+            font-size: 60px;
+            font-family: 'Press Start 2P';
+            text-align: center;
+
+        }
+
+        #dev-container {
+            height: 100vh;
+            width: 100vw;
+
+
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        #box-container {
+            box-shadow:
+                0 0 50px #fff,
+
+                20px 0 80px #f0f,
+
+                -20px 0 80px #0ff,
+
+                20px 0 300px #f0f,
+
+                -20px 0 300px #0ff,
+
+                0 0 50px #fff,
+
+                -10px 0 80px #f0f,
+
+                10px 0 80px #0ff;
+            width: 250px;
+            height: auto;
+            border: 1px solid white;
+            padding: 10px;
+            border-radius: 10px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(22, 67, 227));
+        }
+
+        #amit {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+
+        #dev-name {
+            font-size: 30px;
+            text-align: center;
+            color: white;
+            margin-bottom: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #dev-email {
+            font-size: 20px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #dev-phone {
+            font-size: 20px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #phone {
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        #gmail {
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        #astronaut {
+            animation: boost 2s infinite alternate;
+        }
+
+
+        @keyframes boost {
+
+            from {
+                transform: translateY(0px);
+            }
+
+            to {
+                transform: translateY(-100px);
+            }
+
+
+
+
+        }
+
+
+
+        /* ---------------------footer-------------------------- */
+
+
+
+        #footer {
+            display: grid;
+            grid-template-columns: 2fr 8fr;
+            border: 1px solid red;
+            background: linear-gradient(to bottom, rgb(2, 22, 37), grey);
+        }
+
+        #srms1 {
+            height: 200px;
+
+
+        }
+
+        #footer-right {
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #footer-name {
+            font-size: 30px;
+            color: red;
+            font-weight: 600;
+            margin-bottom: 20px;
+
+        }
+
+        #footer-address {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+
+        }
+
+
+        #footer-phone {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+
+        #footer-email {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    </style>
+</body>
+
+</html>
