@@ -379,64 +379,64 @@ for (key in openEvents_json) {
 
 
 
-// const pop_box = document.getElementById("popup-box");
-// var close2 = document.getElementById("close");
+const pop_box = document.getElementById("popup-box");
+var close2 = document.getElementById("close");
 
-// function close1() {
-//     console.log("close called");
-//     var imgNode=document.getElementById("pop-img");
-//     if (imgNode){
-//         imgNode.remove();
-//     }
+function close1() {
+    console.log("close called");
+    var imgNode=document.getElementById("pop-img");
+    if (imgNode){
+        imgNode.remove();
+    }
     
-//     pop_box.style.display = "none";
-// }
-// close2.addEventListener("click", close1);
+    pop_box.style.display = "none";
+}
+close2.addEventListener("click", close1);
 
 
 
 
-// function popup(club1,event) {
-//     for(key in events){
-//         if (club1.includes(key.toLowerCase())){
-//             var data=events[key][event];
-//             window.open(data["rule"]);
-//             console.log(data);
+function popup(club1,event) {
+    for(key in events){
+        if (club1.includes(key.toLowerCase())){
+            var data=events[key][event];
+            window.open(data["rule"]);
+            console.log(data);
 
-//         }
+        }
         
-//     }
-//     pop_box.style.display = "block";
-//     console.log("pop up function clicked!")
+    }
+    pop_box.style.display = "block";
+    console.log("pop up function clicked!")
 
-//     const imgTag = document.createElement("img");
-//      imgTag.src = data["rule"];
-//     imgTag.setAttribute("id", "pop-img");
-//     pop_box.appendChild(imgTag);
-
-
-// }
+    const imgTag = document.createElement("img");
+     imgTag.src = data["rule"];
+    imgTag.setAttribute("id", "pop-img");
+    pop_box.appendChild(imgTag);
 
 
-
-
-// const event_main= document.querySelectorAll('.event-main');
-// event_main.forEach(event => {
-//     event.addEventListener('click', function handleClick(event) {
-//       console.log('event clicked', event);
-//       console.log(event.srcElement.parentElement.attributes[0].value);
-//         console.log(event.target.attributes[1].value);
-//         var eventName=event.target.attributes[1].value;
-//         var club1=event.srcElement.parentElement.attributes[0].value;
-//         popup(club1,eventName);
-//     //   event.setAttribute('style', 'background-color: yellow;');
-//     });
-//   });
+}
 
 
 
 
+const event_main= document.querySelectorAll('.event-main');
+event_main.forEach(event => {
+    event.addEventListener('click', function handleClick(event) {
+      console.log('event clicked', event);
+      console.log(event.srcElement.parentElement.attributes[0].value);
+        console.log(event.target.attributes[1].value);
+        var eventName=event.target.attributes[1].value;
+        var club1=event.srcElement.parentElement.attributes[0].value;
+        popup(club1,eventName);
+    //   event.setAttribute('style', 'background-color: yellow;');
+    });
+  });
 
+
+
+
+//amit verma
 
 
 
