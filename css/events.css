@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -8,7 +8,25 @@ body{
     background-attachment: fixed;
 }
 
+#up-arrow {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    height: 70px;
+    animation: uparrow 1s infinite;
+    z-index: 3;
+}
 
+@keyframes uparrow {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-10px);
+    }
+
+}
 
 #events-head{
     font-size: 70px;
@@ -113,73 +131,5 @@ body{
 
 
 
-/* ---------------------footer-------------------------- */
 
 
-
-#footer{
-    display: grid;
-    grid-template-columns: 2fr 8fr;
-
-    background: linear-gradient(to bottom,rgb(2, 22, 37),grey);
-    margin-top: 50px;
-}
-
-#srms1{
-    height: 200px;
-   
-   
-}
-
-#footer-right{
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-#footer-name{
-    font-size: 30px;
-    color: red;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 600;
-    margin-bottom: 20px;
-
-}
-
-#footer-address{
-    font-size: 20px;
-    font-weight: 600;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 10px;
-    
-}
-
-
-#footer-phone{
-    font-size: 20px;
-    font-weight: 600;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 10px;
-}
-
-
-#footer-email{
-    font-size: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 600;
-}
-a{
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-}
-
-a:active {
-    color: white;
-}
-
-a:link {
-    color: white;
-}

@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    overflow-x: clip;
+}
 #dev-team {
     background-image: url(../assets/planet-581239.jpg), url(../assets/stars-7249785_1920.jpg);
     background-size: cover cover;
@@ -21,7 +26,7 @@
     height: 100vh;
     width: 100vw;
   
-
+    overflow-x: clip;
     display: flex;
     justify-content: space-around;
 
@@ -67,6 +72,14 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#dev-role{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    
+    
+}
 #dev-email {
     font-size: 17px;
     text-align: left;

@@ -1,0 +1,129 @@
+/* ---------------------footer-------------------------- */
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+
+    background: linear-gradient(to bottom, rgb(2, 22, 37), grey);
+}
+#footer-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#srms1 {
+    height: 180px;
+    width: 400px;
+
+
+}
+
+#footer-right {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer-name {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+#footer-address {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+
+#footer-phone {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+
+#footer-email {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+
+
+/* ----------------media    query for mobile    ---------------------------- */
+@media only screen and (max-width:480px){
+    #footer {
+        display: grid;
+        grid-template-columns: auto;
+
+        background: linear-gradient(to bottom, rgb(2, 22, 37), grey);
+
+    }
+
+    #footer-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #srms1 {
+        height: 140px;
+        width: 300px;
+        
+    
+    
+    }
+    
+
+    #footer-right {
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #footer-name {
+        font-size: 22px;
+        color: red;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        margin-bottom: 20px;
+
+    }
+
+    #footer-address {
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 10px;
+
+    }
+
+
+    #footer-phone {
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 10px;
+    }
+
+
+    #footer-email {
+        font-size: 16px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 600;
+    }
+
+
+}
