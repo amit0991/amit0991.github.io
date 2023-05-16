@@ -1,8 +1,8 @@
 var events = {
     "Illuminati": {
         "Mini Hackthon": {
-            "image": "./event_assets/Atalayar_FIFA 21.jpg",
-            "rule": "/event_assets/DOC-20230429-WA0004._page-0006.jpg"
+            "image": "./event_assets/depositphotos_321405086-stock-illustration-hackathon-signs-round-design-template.jpg"
+            
 
 
         },
@@ -161,7 +161,7 @@ var events = {
             "image": "./event_assets/technical paint.jpg"
         },
         "Quill The Techvyom": {
-            "image": ""
+            "image": "https://firebasestorage.googleapis.com/v0/b/techvyomproject-166eb.appspot.com/o/how-to-draw-naruto-featured-image-1200.webp?alt=media&token=7c024d3c-c8fa-4197-962b-8c41cf02b18a"
         },
         "Digital Poster Making": {
             "image": "./event_assets/digital poster.png"

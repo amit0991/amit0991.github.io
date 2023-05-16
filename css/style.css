@@ -688,7 +688,7 @@ svg {
     width: 220px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
+background-position: center;
     height: 250px;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("../assets/Chairman\ Sir\ new.jpg");
     background-size: cover;
@@ -719,7 +719,7 @@ svg {
 
 
 #name {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 

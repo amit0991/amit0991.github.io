@@ -29,7 +29,7 @@
 }
 
     #home {
-        background-image: url("/assets/a1\ \(1\).jpg");
+        background-image: url("../assets/a1\ \(1\).jpg");
         background-size: cover;
         background-repeat: no-repeat;
 
@@ -158,7 +158,7 @@
     #events {
         height: 1000px;
         width: 100vw;
-        background-image: url("/assets/universe-1566159.jpg");
+        background-image: url("../assets/universe-1566159.jpg");
         background-size: cover;
         position: relative;
         overflow: hidden;
@@ -292,7 +292,7 @@
         width: 100vw;
         background-color: pink;
         padding-bottom: 100px;
-        background-image: url("/assets/stars-1654074_1920.jpg");
+        background-image: url("../assets/stars-1654074_1920.jpg");
         overflow-x: clip;
         position: relative;
 
@@ -459,7 +459,7 @@
         height: auto;
 
 
-        background-image: url("/assets/astronomy-1866822_1920.jpg");
+        background-image: url("../assets/astronomy-1866822_1920.jpg");
         background-size: cover;
         position: relative;
         overflow-x: clip;
@@ -519,7 +519,7 @@
         border-top-right-radius: 10px;
 
         height: 160px;
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("/assets/prabhakar_gupta.jpg");
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("../assets/prabhakar_gupta.jpg");
         background-size: cover;
     }
 
@@ -529,7 +529,7 @@
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         height: 160px;
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("/assets/KAPIL\ BHUSHAN\ -\ EC.jpg");
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("../assets/KAPIL\ BHUSHAN\ -\ EC.jpg");
         background-size: cover;
     }
 
@@ -537,9 +537,9 @@
         width: 150px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-
+        background-position: center;
         height: 160px;
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("/assets/Chairman\ Sir\ new.jpg");
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("../assets/Chairman\ Sir\ new.jpg");
         background-size: cover;
 
     }
@@ -551,7 +551,7 @@
         border-top-right-radius: 10px;
 
         height: 160px;
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("/assets/ADITYA\ SIR.\ \(2\)\ new.jpg");
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("../assets/ADITYA\ SIR.\ \(2\)\ new.jpg");
         background-size: cover;
     }
 
@@ -666,7 +666,7 @@
 
 
     #shailesh-box {
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("/assets/Dr.\ Shailesh\ Saxena.jpg");
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("../assets/Dr.\ Shailesh\ Saxena.jpg");
         background-size: cover;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -675,7 +675,7 @@
     }
 
     #rajesh-box {
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("/assets/MR.\ RAJESH\ KUMAR.jpg");
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("../assets/MR.\ RAJESH\ KUMAR.jpg");
         background-size: cover;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -684,7 +684,7 @@
     }
 
     #shipra-box {
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("/assets/MS.\ SHIPRA\ SHARMA.jpg");
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("../assets/MS.\ SHIPRA\ SHARMA.jpg");
         background-size: cover;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -693,7 +693,7 @@
     }
 
     #ankit-box {
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("/assets/MR.\ ANKIT\ KHANDELWAL.jpg");
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("../assets/MR.\ ANKIT\ KHANDELWAL.jpg");
         background-size: cover;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -702,7 +702,7 @@
     }
 
     #arvind-box {
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("/assets/MR.\ ARVIND\ MISHRA.jpg");
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("../assets/MR.\ ARVIND\ MISHRA.jpg");
         background-size: cover;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -712,7 +712,7 @@
 
 
     #deepak-box {
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("/assets/MR.\ DEEPAK\ BATRA.jpg");
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0)90%, rgba(0, 0, 0, 1)), url("../assets/MR.\ DEEPAK\ BATRA.jpg");
         background-size: cover;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
